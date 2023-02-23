@@ -17,11 +17,11 @@ sys.setdefaultencoding("utf-8")
 class BaiDuAPI:
     def __init__(self):
         self.GRANT_TYPE = "client_credentials"
-        self.CLIENT_ID = "b6lN1eECXn1aRoK9PiwiqwWT" #百度应用的 API Key
-        self.CLIENT_SECRET = "t8KSgal9vgoy5z0AagKOATmPsUrfEiyx" #百度应用的 API Secret
+        self.CLIENT_ID = "XXXXXXXXXXX" #百度应用的 API Key
+        self.CLIENT_SECRET = "XXXXXXXXXXXXXXXXX" #百度应用的 API Secret
         self.TOKEN_URL = "https://openapi.baidu.com/oauth/2.0/token"
         self.RECOGNITION_URL = "http://vop.baidu.com/server_api"
-        self.CUID = "B8-27-EB-BA-24-14"
+        self.CUID = "XXXXXXXXXXXXXX"
         self.RECOGNITION_PATH = r"./record_voice.wav"
         # self.SYNTHESIS_PATH = r"./play_voice.mp3"
 
